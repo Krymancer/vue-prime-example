@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body {
+    @apply bg-gray-200
+  }
+}
+
+.fade-enter-from {
+  opacity: 0.4;
+}
+.fade-enter-active {
+  transition: opacity 1s ease-out;
+}

@@ -1,0 +1,16 @@
+<template>
+  <header class="flex justify-between p-4 bg-white h-20 w-full rounded-lg">
+    <div class="flex gap-4 items-end cursor-pointer" @click="$router.push({ name: 'home' })">
+      <img src="https://www.alvarezandmarsal.com/themes/custom/am/logo.svg" width="50" height="50" />
+      <span class="font-bold text-2xl">PRIME</span>
+    </div>
+    <div class="flex flex-col items-end gap-3">
+      <div>Welcome, <strong>User</strong></div>
+      <div class="flex gap-5 text-blue-500">
+        <a href="#">Home</a>
+        <a href="#">Search</a>
+        <a href="#">Help</a>
+      </div>
+    </div>
+  </header>
+</template>
